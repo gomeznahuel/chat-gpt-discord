@@ -1,4 +1,6 @@
 from app.discord_bot.discord_api import client, discord_token
 
-if __name__ == "__main__":
+def run():
     client.run(discord_token)
+
+run()
